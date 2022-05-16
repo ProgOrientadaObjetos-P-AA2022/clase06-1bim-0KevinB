@@ -18,7 +18,7 @@ public class Ejecutor {
         boolean bandera;
         String opcion;
         Scanner entrada = new Scanner(System.in);
-
+        
         // Inicio de proceso iterativo 
         bandera = true;
         while (bandera) { // bandera == true
@@ -44,7 +44,7 @@ public class Ejecutor {
                     v.obtenerPagoMensual());
 
             entrada.nextLine(); // limpieza del buffer
-            System.out.println("Desea ingresar más vendedores. Ingrese n para"
+            System.out.println("Desea ingresar más vendedores. Ingrese n para "
                     + "salir");
             opcion = entrada.nextLine();
             if (opcion.equals("n")) {
