@@ -20,7 +20,7 @@ public class Ejemplos {
         for (int i = 0; i < lista.length; i++) {
             System.out.println(lista[i]);
         }
-        
+        System.out.println("----------------");
         for (String lista1 : lista) {
             System.out.println(lista1);
         }
